@@ -42,8 +42,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function gerarConta() {
-        const num1 = Math.floor(Math.random() * 10) + 1;
-        const num2 = Math.floor(Math.random() * 10) + 1;
+        const num1 = Math.floor(Math.random() * 99) + 1;
+        const num2 = Math.floor(Math.random() * 99) + 1;
 
         let resposta;
         let pergunta;
